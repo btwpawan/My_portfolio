@@ -152,7 +152,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Savitribai Phule Pune University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("SPPU Logo.jpg"),
       subHeader: "Bachelor of Computer Applications (BCA) | CGPA 8.27 (A+ Grade)",
       duration: "September 2022 - April 2025",
       descBullets: [
