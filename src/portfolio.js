@@ -87,11 +87,11 @@ const Projects = {
       projectDesc:
         "A fully responsive Netflix clone built using React.js and Firebase. Implements user authentication, dynamic movie listings using TMDB API, and smooth UI with hover effects and modals. Features include trending movies, categories, and a custom video player experience.",
       footerLink: [
-        { name: "Visit Website", url: "https://netflix-full-stack-clone.vercel.app/login" }
+        { name: "Visit Website", url: "https://netflix-full-stack-clone.vercel.app/" }
       ]
     },
     {
-      image: require("./assets/images/pass.jpg"),
+      image: require("./assets/images/reallogo.png"),
       projectName: "Real-Time Chat Application",
       projectDesc:
         "A real-time chat app developed with Spring Boot (WebSocket, STOMP), Thymeleaf, and JavaScript. Supports multiple chat rooms, instant messaging with SockJS & STOMP.js, and a clean, responsive interface. Ensures seamless communication with live updates and message broadcasting.",
