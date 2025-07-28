@@ -21,7 +21,7 @@ const greeting = {
   username: "Pawan Sanap",
   title: "Hi all, I'm Pawan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -42,13 +42,13 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop fully responsive and interactive Frontend UIs using React.js and modern CSS libraries like Tailwind & Bootstrap."
+      "⚡ Develop fully responsive and interactive Frontend UIs using React.js and modern CSS libraries like Tailwind & Bootstrap.",
     ),
     emoji(
-      "⚡ Build RESTful backend APIs using Java, Spring Boot and integrate them with MySQL for full stack web applications."
+      "⚡ Build RESTful backend APIs using Java, Spring Boot and integrate them with MySQL for full stack web applications.",
     ),
     emoji(
-      "⚡ Deploy and manage full stack projects on platforms like Vercel, Render, and GitHub Pages; familiar with Firebase basics and Git for version control."
+      "⚡ Deploy and manage full stack projects on platforms like Vercel, Render, and GitHub Pages; familiar with Firebase basics and Git for version control.",
     ),
   ],
   softwareSkills: [
@@ -78,7 +78,10 @@ const Projects = {
       projectDesc:
         "A modern, fully responsive clone of the Tesla homepage built using React and styled-components. Includes smooth animations, scroll effects, and UI sections showcasing Tesla's vehicle lineup and clean energy products.",
       footerLink: [
-        { name: "Visit Website", url: "https://tesla-clone-drab-six.vercel.app/" },
+        {
+          name: "Visit Website",
+          url: "https://tesla-clone-drab-six.vercel.app/",
+        },
       ],
     },
     {
@@ -87,7 +90,10 @@ const Projects = {
       projectDesc:
         "A fully responsive Netflix clone built using React.js and Firebase. Implements user authentication, dynamic movie listings using TMDB API, and smooth UI with hover effects and modals. Features include trending movies, categories, and a custom video player experience.",
       footerLink: [
-        { name: "Visit Website", url: "https://netflix-full-stack-clone.vercel.app/" },
+        {
+          name: "Visit Website",
+          url: "https://netflix-full-stack-clone.vercel.app/",
+        },
       ],
     },
     {
@@ -113,7 +119,8 @@ const educationInfo = {
     {
       schoolName: "Savitribai Phule Pune University",
       logo: require("./assets/images/sppulogo.jpg"),
-      subHeader: "Bachelor of Computer Applications (BCA) | CGPA 8.27 (A+ Grade)",
+      subHeader:
+        "Bachelor of Computer Applications (BCA) | CGPA 8.27 (A+ Grade)",
       duration: "September 2022 - April 2025",
       descBullets: [
         "Completed add-on certifications in Full Stack Java Development",
@@ -127,7 +134,9 @@ const educationInfo = {
       logo: require("./assets/images/HSC.png"),
       subHeader: "HSC Science | Percentage: 86% – Maharashtra State Board",
       duration: "September 2021 - April 2022",
-      descBullets: ["Learned core concepts of algorithms, basic Java, and networking"],
+      descBullets: [
+        "Learned core concepts of algorithms, basic Java, and networking",
+      ],
     },
     {
       schoolName: "D.B Ghumare School, Beed",
@@ -203,7 +212,8 @@ const resumeSection = {
 // Contact Section
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-8788493504",
   email_address: "pawansanap04@gmail.com",
 };
