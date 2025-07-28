@@ -1,19 +1,20 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the _globalColor.scss file
+
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 const splashScreen = {
-  enabled: true,
+  enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 1500
+  duration: 1500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 const illustration = {
-  animated: true
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
@@ -23,8 +24,8 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -32,7 +33,7 @@ const socialMediaLinks = {
   github: "https://github.com/btwpawan",
   linkedin: "https://www.linkedin.com/in/pawansanap",
   gmail: "pawansanap04@gmail.com",
-  display: true
+  display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -77,7 +78,10 @@ const Projects = {
       projectDesc:
         "A modern, fully responsive clone of the Tesla homepage built using React and styled-components. Includes smooth animations, scroll effects, and UI sections showcasing Tesla's vehicle lineup and clean energy products.",
       footerLink: [
-        { name: "Visit Website", url: "https://tesla-clone-drab-six.vercel.app/" }
+        {
+          name: "Visit Website",
+          url: "https://tesla-clone-drab-six.vercel.app/"
+        }
       ]
     },
     {
@@ -86,7 +90,10 @@ const Projects = {
       projectDesc:
         "A fully responsive Netflix clone built using React.js and Firebase. Implements user authentication, dynamic movie listings using TMDB API, and smooth UI with hover effects and modals. Features include trending movies, categories, and a custom video player experience.",
       footerLink: [
-        { name: "Visit Website", url: "https://netflix-full-stack-clone.vercel.app/" }
+        {
+          name: "Visit Website",
+          url: "https://netflix-full-stack-clone.vercel.app/"
+        }
       ]
     },
     {
@@ -127,7 +134,9 @@ const educationInfo = {
       logo: require("./assets/images/HSC.png"),
       subHeader: "HSC Science | Percentage: 86% – Maharashtra State Board",
       duration: "September 2021 - April 2022",
-      descBullets: ["Learned core concepts of algorithms, basic Java, and networking"]
+      descBullets: [
+        "Learned core concepts of algorithms, basic Java, and networking"
+      ]
     },
     {
       schoolName: "D.B Ghumare School, Beed",
