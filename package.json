@@ -1,6 +1,6 @@
 {
-  "homepage": "https://btwpawan.github.io"
-,  "name": "developerfolio",
+  "homepage": "https://btwpawan.github.io",
+  "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
