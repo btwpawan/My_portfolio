@@ -121,23 +121,27 @@ const Projects = {
     },
     {
       image: require("./assets/images/netflix.jpg"),
-      projectName: "Netflix Clone (Streaming UI)",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Netflix Full Stack Clone",
+      projectDesc: "A fully responsive Netflix clone built using React.js and Firebase. Implements user authentication, dynamic movie listings using TMDB API, and smooth UI with hover effects and modals. Features include trending movies, categories, and a custom video player experience.
+
+",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://netflix-clone-ten-peach-11.vercel.app/"
+          url: "https://netflix-full-stack-clone.vercel.app/login"
         }
       ]
     },
     {
       image: require("./assets/images/pass.jpg"),
-      projectName: "React Password Generator",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Real-Time Chat Application",
+      projectDesc: "A real-time chat app developed with Spring Boot (WebSocket, STOMP), Thymeleaf, and JavaScript. Supports multiple chat rooms, instant messaging with SockJS & STOMP.js, and a clean, responsive interface. Ensures seamless communication with live updates and message broadcasting.
+
+",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://react-password-generator-khaki.vercel.app/"
+          url: "https://realtime-chat-app-springboot-production.up.railway.app/"
         }
       ]
     }
@@ -164,7 +168,7 @@ const educationInfo = {
     },
     {
       schoolName: "Balwantrao Kadam high School,Yelambghat",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/HSC.png"),
       subHeader: "HSC Science | Percentage: 86% – Maharashtra State Board",
       duration: "September 2021 - April 2022",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -172,7 +176,7 @@ const educationInfo = {
     },
     {
       schoolName: "D.B Ghumare School , Beed",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/HSC.png"),
       subHeader: "SSC | Percentage: 84% – Maharashtra State Board",
       duration: "September 2019 - April 2020",
       desc: "Passed with distinction and developing a strong foundation in Mathematics and Computers.",
