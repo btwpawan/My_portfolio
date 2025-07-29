@@ -58,10 +58,7 @@ const skillsSection = {
     { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
     { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
     { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
-    {
-      skillName: "springboot",
-      imageSrc: require("./assets/images/springboot.png"),
-    },
+    { skillName: "springboot", imageSrc: require("./assets/images/springboot.png") },
     { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
     { skillName: "github", fontAwesomeClassname: "fab fa-github" },
   ],
@@ -119,8 +116,7 @@ const educationInfo = {
     {
       schoolName: "Savitribai Phule Pune University",
       logo: require("./assets/images/sppulogo.jpg"),
-      subHeader:
-        "Bachelor of Computer Applications (BCA) | CGPA 8.27 (A+ Grade)",
+      subHeader: "Bachelor of Computer Applications (BCA) | CGPA 8.27 (A+ Grade)",
       duration: "September 2022 - April 2025",
       descBullets: [
         "Completed add-on certifications in Full Stack Java Development",
@@ -134,9 +130,7 @@ const educationInfo = {
       logo: require("./assets/images/HSC.png"),
       subHeader: "HSC Science | Percentage: 86% – Maharashtra State Board",
       duration: "September 2021 - April 2022",
-      descBullets: [
-        "Learned core concepts of algorithms, basic Java, and networking",
-      ],
+      descBullets: ["Learned core concepts of algorithms, basic Java, and networking"],
     },
     {
       schoolName: "D.B Ghumare School, Beed",
