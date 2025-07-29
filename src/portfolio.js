@@ -97,7 +97,7 @@ const Projects = {
       ]
     },
     {
-      image: require("./assets/images/reallogo.png"),
+      image: require("./assets/images/reallogo.jpg"),
       projectName: "Real-Time Chat Application",
       projectDesc:
         "A real-time chat app developed with Spring Boot (WebSocket, STOMP), Thymeleaf, and JavaScript. Supports multiple chat rooms, instant messaging with SockJS & STOMP.js, and a clean, responsive interface. Ensures seamless communication with live updates and message broadcasting.",
